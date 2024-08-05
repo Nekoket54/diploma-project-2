@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+:root {
+  --header-text:#fff;
+  --header-button:#FFD723;
+  --strategy:#4D533C;
+  --aerolad:#213842;
+  --link:#D4D6D4;
+  --founder:#152934;
+}
+
+body {
+  font-family: Poppins;
+}
+
+.header {
+  width: 1441px;
+  height: 811px;
+  background-image: url(../images/header.png);
+  margin: 0 auto;
+}
+.header-navigation {
+  width: 1111px;
+  height: 43px;
+  margin-left: 164px;
+  padding-top: 24px;
+  margin-bottom: 121px;
+}
+.header-navigation-logo {
+  width: 258px;
+  align-items: center;
+  margin: 0;
+  font-size: 40px;
+}
+.header-info {
+  width: 616px;
+  height: 412px;
+  margin-left: 166px;
+}
+.header-info-text {
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--header-text);
+}
+.header-info-heading {
+  font-weight: 700;
+  font-size: 60px;
+  color: var(--header-text);
+  margin: 22px 0px;
+  line-height: 80px;
+}
+.header-info-anteelo {
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--header-text);
+  margin-bottom: 45px;
+  line-height: 30px;
+}
+.header-info-link {
+  color: var(--header-button);
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.main-strategy {
+  width: 1441px;
+  height: 794px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+.main-strategy-box {
+  width: 1276px;
+  height: 227px;
+  color: var(--header-text);
+  position: absolute;
+  top: 708px;
+  margin-left: 165px;
+  background-color: var(--header-text);
+  box-shadow: 32px 66px 105px -5px rgba(184, 184, 184, 0.6);
+}
+.main-strategy-box-container {
+  width: 1045px;
+  height: 113px;
+  display: flex;
+  justify-content: space-between;
+  margin: 60px 0px 0px 65px;
+}
+.main-strategy-box-container-photo {
+  width: 156px;
+  height: 113px;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-strategy-list {
+  width: 1109px;
+  height: 644px;
+  display: flex;
+  justify-content: space-between;
+}
+.main-strategy-list-item1 {
+  width: 475px;
+  height: 366px;
+  margin: 244px 0px 0px 0px;
+}
+.main-strategy-list-item1-text {
+  color: var(--strategy);
+  opacity: 0.9;
+  font-weight: 400;
+  font-size: 14px;
+}
+.main-strategy-list-item1-name {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 128%;
+  color: var(--strategy);
+  opacity: 0.9;
+  margin: 29px 0px 35px;
+}
+.main-strategy-list-item1-aerolad {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 162%;
+  color: var(--aerolad);
+  opacity: 0.6;
+  margin-bottom: 42px;
+}
+.main-strategy-list-item1-link {
+  font-weight: 400;
+  font-size: 16px;
+  text-decoration: underline;
+  color: var(--link);
+}
+.main-strategy-list-item2 {
+  width: 474px;
+  height: 644px;
+  box-shadow: -2px -137px 140px -6px rgba(184, 184, 184, 0.6), -2px 134px 114px -58px rgba(184, 184, 184, 0.61);
+}
+.main-strategy-list-item2-text {
+  width: 426px;
+  height: 200px;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 167%;
+  color: var(--strategy);
+  margin: 244px 8px 50px 40px;
+}
+.main-strategy-list-item2-box {
+  margin-left: 40px;
+}
+.main-strategy-list-item2-box-name {
+  font-weight: 700;
+  font-size: 22px;
+  color: var(--strategy);
+  margin-bottom: 6px;
+}
+.main-strategy-list-item2-box-text {
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--founder);
+}
+.main-strategy-list-item2-box::before {
+  content: "";
+  background-image: url(../images/Oval.png);
+  width: 10px;
+  height: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
