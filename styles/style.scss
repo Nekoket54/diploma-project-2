@@ -84,13 +84,13 @@
     
     &-strategy{
         width: 1441px;
-        height: 794px;
+        // height: 794px;
         display: flex;
         justify-content: center;
         margin: 0 auto;
         &-box{
             width: 1276px;
-            height: 227px;
+            // height: 227px;
             color: var(--header-text);
             position: absolute;
             top: 706px;
@@ -101,10 +101,11 @@
             box-shadow: 32px 66px 105px -5px rgba(184,184,184,0.6);
             &-container{
                 width: 1045px;
-                height: 113px;
+                // height: 113px;
                 display: flex;
-                justify-content: space-between;
-                margin: 60px 0px 0px 65px;
+                column-gap: 66px;
+                // justify-content: space-between;
+                margin: 60px 0px 54px 65px;
                 &-photo{
                     width: 156px;
                     height: 113px;
@@ -115,13 +116,13 @@
         }
         &-list{
             width: 1109px;
-            height: 644px;
+            // height: 644px;
             display: flex;
             justify-content: space-between;
             &-item1{
                 width: 475px;
-                height: 366px;
-                margin: 244px 0px 0px 0px;
+                // height: 366px;
+                padding-top: 244px;
                 &-text{
                     color: var(--strategy);
                     opacity: 0.9;
@@ -154,11 +155,11 @@
             }
             &-item2{
                 width: 474px;
-                height: 644px;
+                // height: 644px;
                 box-shadow: -2px -137px 140px -6px rgba(184,184,184,0.6), -2px 134px 114px -58px rgba(184,184,184,0.61);
                 &-text{
                     width: 426px;
-                    height: 200px;
+                    // height: 200px;
                     font-style: italic;
                     font-weight: 400;
                     font-size: 24px;
@@ -169,6 +170,7 @@
                 &-list{
                     // margin-left: 160px;
                     display: flex;
+                    margin-bottom: 60px;
                     &-item1{
                         margin-right: 30px;
                         &-photo{
@@ -712,29 +714,111 @@
         fill: var(--header-button);
     }
 }
-@media(max-width:420px){
+@media(max-width:376px){
+    .body{
+        width: 375px;
+    }
     .header{
+        width: 375px;
+        padding-bottom: 40px;
+        background-repeat: no-repeat;
+        background-size: cover;
         &-navigation{
-            margin-left: 60px;
-            margin-bottom: 120px;
+            margin-left: 35px;
+            margin-bottom: 60px;
             &-logo{
-                width: 400px;
-                height: 65px;
+                width: 170px;
+                height: 35px;
             }
         }
         &-info{
-            margin-left: 60px;
+            margin-left: 35px;
             &-text{
                 font-size: 20px;
             }
             &-heading{
-                font-size: 50px;
+                width: 300px;
+                font-size: 30px;
+                line-height: 50px;
             }
             &-anteelo{
-                margin-bottom: 10px;
+                width: 310px;
+                margin-bottom: 35px;
             }
             &-link{
-                font-size: 25px;
+                font-size: 20px;
+            }
+        }
+    }
+    .main{
+        &-strategy{
+            justify-content: start;
+            &-box{
+                width: 375px;
+                top: 520px;
+                left: 0px;
+                &-container{
+                    width: 375px;
+                    margin: 30px 0px 30px 22px;
+                    column-gap: 17px;
+                    &-photo{
+                        width: 14%;
+                        height: 9%;
+                        
+                    }
+                }
+            }
+            &-list{
+                margin-left: 35px;
+                display: block;
+                &-item1{
+                    padding-top: 115px;
+                    &-text{
+
+                    }
+                    &-name{
+                        font-size: 30px;
+                    }
+                    &-aerolad{
+                        width: 310px;
+                    }
+                    &-link{
+
+                    }
+                }
+                &-item2{
+                    width: 350px;
+                    &-text{
+                        font-size: 18px;
+                        width: 310px;
+                        margin: 70px 0px 0px 0px;
+                        padding-top: 20px;
+                        padding-left: 15px;
+                        padding-bottom: 20px;
+                    }
+                    &-list{
+                        margin-bottom: 0px;
+                        padding-bottom: 30px;
+                        &-item1{
+
+                            &-photo{
+                                width: 70px;
+                                height: 70px;
+                                margin-left: 25px;
+                            }
+                        }
+                        &-item2{
+
+                            &-name{
+                                font-size: 18px;
+
+                            }
+                            &-text{
+                                font-size: 13px;
+                            }
+                        }
+                    }
+                }
             }
         }
     }
