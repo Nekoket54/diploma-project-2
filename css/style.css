@@ -79,13 +79,12 @@ table {
 
 .header {
   width: 1441px;
-  height: 811px;
   background-image: url(../images/header.png);
   margin: 0 auto;
+  padding-bottom: 211px;
 }
 .header-navigation {
   width: 1111px;
-  height: 43px;
   margin-left: 164px;
   padding-top: 24px;
   margin-bottom: 121px;
@@ -721,4 +720,30 @@ table {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   fill: var(--header-button);
+}
+
+@media (max-width: 420px) {
+  .header-navigation {
+    margin-left: 60px;
+    margin-bottom: 120px;
+  }
+  .header-navigation-logo {
+    width: 400px;
+    height: 65px;
+  }
+  .header-info {
+    margin-left: 60px;
+  }
+  .header-info-text {
+    font-size: 20px;
+  }
+  .header-info-heading {
+    font-size: 50px;
+  }
+  .header-info-anteelo {
+    margin-bottom: 10px;
+  }
+  .header-info-link {
+    font-size: 25px;
+  }
 }
