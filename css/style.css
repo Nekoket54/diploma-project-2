@@ -70,8 +70,11 @@ table {
   --footer-border:#5d6544;
 }
 
-body {
+.body {
   font-family: Poppins;
+}
+.body-hover-button:hover {
+  color: var(--header-button);
 }
 
 .header {
@@ -84,7 +87,7 @@ body {
   width: 1111px;
   height: 43px;
   margin-left: 164px;
-  padding-bottom: 24px;
+  padding-top: 24px;
   margin-bottom: 121px;
 }
 .header-navigation-logo {
@@ -118,7 +121,7 @@ body {
   line-height: 30px;
 }
 .header-info-link {
-  color: var(--header-button);
+  color: var(--link);
   font-weight: 400;
   font-size: 16px;
   font-family: "Awesome-Font", Arial;
@@ -136,8 +139,10 @@ body {
   height: 227px;
   color: var(--header-text);
   position: absolute;
-  margin-bottom: 708px;
-  margin-left: 165px;
+  top: 706px;
+  left: 204px;
+  right: 0px;
+  margin: 0 auto;
   background-color: var(--header-text);
   box-shadow: 32px 66px 105px -5px rgba(184, 184, 184, 0.6);
 }
@@ -192,6 +197,7 @@ body {
   font-size: 16px;
   text-decoration: underline;
   color: var(--link);
+  font-family: "Awesome-Font", Arial;
 }
 .main-strategy-list-item2 {
   width: 474px;
@@ -302,6 +308,7 @@ body {
   font-size: 16px;
   text-decoration: underline;
   color: var(--link);
+  font-family: "Awesome-Font", Arial;
 }
 .main-project-angel {
   width: 453px;
@@ -380,6 +387,7 @@ body {
   -webkit-text-decoration-skip-ink: none;
           text-decoration-skip-ink: none;
   color: var(--link);
+  font-family: "Awesome-Font", Arial;
 }
 .main-project-3dmodel-item2 {
   width: 775px;
@@ -475,6 +483,7 @@ body {
   -webkit-text-decoration-skip-ink: none;
           text-decoration-skip-ink: none;
   color: var(--link);
+  font-family: "Awesome-Font", Arial;
 }
 .main-project-eunice {
   width: 453px;
@@ -520,7 +529,6 @@ body {
 }
 .main-deation {
   width: 1110px;
-  height: 611px;
   justify-content: center;
   margin: 0 auto;
 }
@@ -537,6 +545,7 @@ body {
   height: 309px;
   display: flex;
   row-gap: 30px;
+  margin-bottom: 322px;
 }
 .main-deation-list-item {
   width: 255px;
@@ -566,14 +575,44 @@ body {
   font-weight: 400;
   font-size: 16px;
   text-decoration: underline;
-  color: var(--header-button);
-  font-family: "";
+  color: var(--link);
+  font-family: "Awesome-Font", Arial;
+}
+.main-deation-box {
+  width: 1275px;
+  background-color: var(--header-text);
+  position: absolute;
+  top: 4718px;
+  right: 244px;
+  left: 0px;
+  margin: 0 auto;
+}
+.main-deation-box-container {
+  width: 822px;
+  margin: 70px 0px 71px 164px;
+}
+.main-deation-box-container-name {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 123%;
+  color: var(--strategy);
+  margin-bottom: 50px;
+}
+.main-deation-box-container-link {
+  font-weight: 400;
+  font-size: 16px;
+  text-decoration: underline;
+  color: var(--link);
+  font-family: "Awesome-Font", Arial;
 }
 
 .footer {
+  width: 1440px;
   background-image: url("../images/footer.png");
   padding-top: 310px;
   padding-left: 165px;
+  box-shadow: -44px -3px 72px 6px rgba(62, 60, 60, 0.32);
+  margin: 0 auto;
 }
 .footer-box {
   width: 1111px;
@@ -621,12 +660,12 @@ body {
   color: var(--footer-phone);
   padding-top: 21px;
 }
-.footer-box-list2-item-box-text:nth-child(3) {
-  padding-right: 13px;
-  border-right: 1px solid var(--footer-border);
-}
 .footer-box-list2-item:nth-child(2) {
   margin: 0px 100px 0px 70px;
+}
+.footer-box-list2-item:nth-child(3) {
+  padding-right: 13px;
+  border-right: 1px solid var(--footer-border);
 }
 .footer-box-list2-info {
   margin-left: 110px;
@@ -658,10 +697,20 @@ body {
   display: flex;
   justify-content: space-between;
 }
+.footer-box-container {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+  border-top: 1px solid var(--footer-border);
+}
+.footer-box-container-photo {
+  margin-top: 25px;
+}
 .footer-box-container-text {
   font-weight: 400;
   font-size: 14px;
   color: var(--footer-phone);
+  margin: 33px 26px 6px 0px;
 }
 .footer-icon:hover path {
   transition-duration: 250ms;
