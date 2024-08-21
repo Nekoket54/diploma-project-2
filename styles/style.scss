@@ -90,13 +90,11 @@
     
     &-strategy{
         width: 1441px;
-        // height: 794px;
         display: flex;
         justify-content: center;
         margin: 0 auto;
         &-box{
             width: 1276px;
-            // height: 227px;
             color: var(--header-text);
             position: absolute;
             top: 706px;
@@ -107,10 +105,8 @@
             box-shadow: 32px 66px 105px -5px rgba(184,184,184,0.6);
             &-container{
                 width: 1045px;
-                // height: 113px;
                 display: flex;
                 column-gap: 66px;
-                // justify-content: space-between;
                 margin: 60px 0px 54px 65px;
                 &-photo{
                     width: 156px;
@@ -122,12 +118,10 @@
         }
         &-list{
             width: 1109px;
-            // height: 644px;
             display: flex;
             justify-content: space-between;
             &-item1{
                 width: 475px;
-                // height: 366px;
                 padding-top: 244px;
                 &-text{
                     color: var(--strategy);
@@ -161,11 +155,9 @@
             }
             &-item2{
                 width: 474px;
-                // height: 644px;
                 box-shadow: -2px -137px 140px -6px rgba(184,184,184,0.6), -2px 134px 114px -58px rgba(184,184,184,0.61);
                 &-text{
                     width: 426px;
-                    // height: 200px;
                     font-style: italic;
                     font-weight: 400;
                     font-size: 24px;
@@ -174,7 +166,6 @@
                     margin: 244px 8px 50px 40px;
                 }
                 &-list{
-                    // margin-left: 160px;
                     display: flex;
                     margin-bottom: 60px;
                     &-item1{
@@ -209,12 +200,10 @@
 
     &-project{
         width: 1440px;
-        // height: 2353px;
         margin: 0 auto;
         margin-bottom: 300px;
         &-box{
             width: 976px;
-            // height: 102px;
             display: flex;
             justify-content: space-between;
             margin: 301px 0px 110px 165px;
@@ -237,12 +226,10 @@
         }
         &-balenciaga{
             width: 1306px;
-            // height: 615px;
             display: flex;
             justify-content: space-between;
             &-item1{
                 width: 775px;
-                // height: 615px;
                 &-photo{
                     width: 735px;
                     height: 550px;
@@ -250,7 +237,6 @@
             }
             &-item2{
                 width: 475px;
-                // height: 397px;
                 margin-bottom: 80px;
                 &-name{
                     font-weight: 700;
@@ -280,7 +266,6 @@
 
         &-angel{
             width: 453px;
-            // height: 243px;
             background-color: var(--header-text);
             border-radius: 8px;
             padding: 30px 0px 30px 30px;
@@ -329,13 +314,11 @@
 
         &-3dmodel{
             width: 1268px;
-            // height: 585px;
             display: flex;
             justify-content: space-between;
             margin: 100px 0px 130px 172px;
             &-item1{
                 width: 475px;
-                // height: 397px;
                 margin-bottom: 80px;
                 &-name{
                     font-weight: 700;
@@ -364,7 +347,6 @@
             }
             &-item2{
                 width: 775px;
-                // height: 585px;
                 display: flex;
                 justify-content: end;
                 &-photo{
@@ -377,7 +359,6 @@
 
         &-lina{
             width: 453px;
-            // height: 243px;
             background-color: var(--header-text);
             border-radius: 8px;
             padding: 30px 0px 30px 30px;
@@ -426,12 +407,10 @@
 
         &-booking{
             width: 1305px;
-            // height: 590px;
             display: flex;
             justify-content: space-between;
             &-item1{
                 width: 776px;
-                // height: 590px;
                 margin-bottom: 37px;
                 &-photo{
                     width: 735px;
@@ -440,7 +419,6 @@
             }
             &-item2{
                 width: 475px;
-                // height: 397px;
                 margin-bottom: 80px;
                 &-name{
                     font-weight: 700;
@@ -470,7 +448,6 @@
         }
         &-eunice{
             width: 453px;
-            // height: 210px;
             background-color: var(--header-text);
             border-radius: 8px;
             padding: 30px 0px 30px 30px;
@@ -531,7 +508,6 @@
         }
         &-list{
             width: 1110px;
-            // height: 309px;
             display: flex;
             row-gap: 30px;
             margin-bottom: 322px;
@@ -963,7 +939,7 @@
             &-angel{
                 width: 200px;
                 padding: 10px 0px 10px 10px;
-                top: 2144.2px;
+                top: 2146px;
                 left: 0;
                 right: 0;
                 border-radius: 10px 0px 0px 0px;
@@ -1034,7 +1010,7 @@
             &-lina{
                 width: 200px;
                 padding: 10px 0px 10px 10px;
-                top: 3236.2px;
+                top: 3238px;
                 left: 0;
                 right: 0;
                 border-radius: 0px 10px 0px 0px;
@@ -1104,7 +1080,7 @@
             &-eunice{
                 width: 200px;
                 padding: 10px 0px 10px 10px;
-                top: 3665.8px;
+                top: 3668px;
                 left: 0;
                 right: 0;
                 border-radius: 10px 0px 0px 0px;
