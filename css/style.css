@@ -59,6 +59,10 @@ table {
   font-weight: 400;
   src: local("Awesome-Font"), local("Awesome-Font-Regular"), url(/fontawesome-webfont.woff) format("woff");
 }
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
   --header-text:#fff;
   --header-button:#FFD723;
@@ -88,6 +92,8 @@ table {
   margin-left: 164px;
   padding-top: 24px;
   margin-bottom: 121px;
+  display: flex;
+  justify-content: space-between;
 }
 .header-navigation-logo {
   width: 258px;
@@ -703,6 +709,100 @@ table {
   fill: var(--header-button);
 }
 
+.burger-checkbox {
+  position: absolute;
+  visibility: hidden;
+}
+
+.burger {
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+  display: block;
+  position: relative;
+  border: none;
+  background: transparent;
+  width: 30px;
+  height: 26px;
+}
+
+.burger::before,
+.burger::after {
+  content: "";
+  left: 0;
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 4px;
+  border-radius: 10px;
+  background: #000;
+}
+
+.burger::before {
+  top: 0;
+  box-shadow: 0 11px 0 #000;
+  transition: box-shadow 0.3s 0.15s, top 0.3s 0.15s, transform 0.3s;
+}
+
+.burger::after {
+  bottom: 0;
+  transition: bottom 0.3s 0.15s, transform 0.3s;
+}
+
+.burger-checkbox:checked + .burger::before {
+  top: 11px;
+  transform: rotate(45deg);
+  box-shadow: 0 6px 0 rgba(0, 0, 0, 0);
+  transition: box-shadow 0.15s, top 0.3s, transform 0.3s 0.15s;
+}
+
+.burger-checkbox:checked + .burger::after {
+  bottom: 11px;
+  transform: rotate(-45deg);
+  transition: bottom 0.3s, transform 0.3s 0.15s;
+}
+
+.menu-list {
+  top: 0;
+  left: 0;
+  position: absolute;
+  display: flex;
+  gap: 12px;
+  padding: 24px 0;
+  margin: 0;
+  list-style-type: none;
+  transform: translateX(1000%);
+  transition: 0.3s;
+  width: 470px;
+}
+
+.menu-item {
+  display: block;
+  padding: 8px;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  transition: all 0.6s;
+}
+
+.menu-item:hover {
+  background: var(--header-button);
+}
+
+.burger-checkbox:checked ~ .menu-list {
+  transform: translateX(650px);
+}
+
+.menu {
+  background-color: var(--header-text);
+  padding-top: 7px;
+  border-radius: 100%;
+  padding: 10px 9px 10px 9px;
+  z-index: 1;
+}
+
 @media (max-width: 576px) {
   .body {
     width: 425px;
@@ -714,6 +814,7 @@ table {
     background-size: cover;
   }
   .header-navigation {
+    width: 360px;
     margin-left: 35px;
     margin-bottom: 60px;
   }
@@ -1107,5 +1208,18 @@ table {
   }
   .footer-box-container-text {
     font-size: 11px;
+  }
+  .burger-checkbox:checked ~ .menu-list {
+    transform: translateX(150px);
+  }
+  .menu-list {
+    width: 105px;
+    display: block;
+    margin-top: 50px;
+    margin-left: 164px;
+  }
+  .menu-item {
+    font-size: 14px;
+    width: 90px;
   }
 }
