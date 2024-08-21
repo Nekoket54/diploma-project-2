@@ -717,12 +717,12 @@ table {
   fill: var(--header-button);
 }
 
-@media (max-width: 376px) {
+@media (max-width: 576px) {
   .body {
-    width: 375px;
+    width: 425px;
   }
   .header {
-    width: 375px;
+    width: 425px;
     padding-bottom: 40px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -757,15 +757,15 @@ table {
     justify-content: start;
   }
   .main-strategy-box {
-    width: 375px;
+    width: 425px;
     top: 520px;
     left: 0px;
   }
   .main-strategy-box-container {
     width: 375px;
     margin: 30px 0px 30px 22px;
-    -moz-column-gap: 17px;
-         column-gap: 17px;
+    -moz-column-gap: 27px;
+         column-gap: 27px;
   }
   .main-strategy-box-container-photo {
     width: 14%;
@@ -790,10 +790,8 @@ table {
   .main-strategy-list-item2-text {
     font-size: 18px;
     width: 310px;
-    margin: 70px 0px 0px 0px;
-    padding-top: 20px;
-    padding-left: 15px;
-    padding-bottom: 20px;
+    margin: 100px 0px 0px 0px;
+    padding: 20px 0px 20px 15px;
   }
   .main-strategy-list-item2-list {
     margin-bottom: 0px;

@@ -714,12 +714,12 @@
         fill: var(--header-button);
     }
 }
-@media(max-width:376px){
+@media(max-width:576px){
     .body{
-        width: 375px;
+        width: 425px;
     }
     .header{
-        width: 375px;
+        width: 425px;
         padding-bottom: 40px;
         background-repeat: no-repeat;
         background-size: cover;
@@ -754,13 +754,13 @@
         &-strategy{
             justify-content: start;
             &-box{
-                width: 375px;
+                width: 425px;
                 top: 520px;
                 left: 0px;
                 &-container{
                     width: 375px;
                     margin: 30px 0px 30px 22px;
-                    column-gap: 17px;
+                    column-gap: 27px;
                     &-photo{
                         width: 14%;
                         height: 9%;
@@ -791,10 +791,8 @@
                     &-text{
                         font-size: 18px;
                         width: 310px;
-                        margin: 70px 0px 0px 0px;
-                        padding-top: 20px;
-                        padding-left: 15px;
-                        padding-bottom: 20px;
+                        margin: 100px 0px 0px 0px;
+                        padding: 20px 0px 20px 15px;
                     }
                     &-list{
                         margin-bottom: 0px;
