@@ -137,7 +137,7 @@ table {
   color: var(--header-text);
   position: absolute;
   top: 706px;
-  left: 204px;
+  left: 164px;
   right: 0px;
   margin: 0 auto;
   background-color: var(--header-text);
@@ -234,17 +234,14 @@ table {
 }
 .main-project {
   width: 1440px;
-  height: 2353px;
   margin: 0 auto;
-  margin-bottom: 150px;
+  margin-bottom: 300px;
 }
 .main-project-box {
   width: 976px;
-  height: 102px;
   display: flex;
   justify-content: space-between;
-  margin-left: 165px;
-  margin-bottom: 110px;
+  margin: 301px 0px 110px 165px;
 }
 .main-project-box-name {
   width: 325px;
@@ -264,13 +261,11 @@ table {
 }
 .main-project-balenciaga {
   width: 1306px;
-  height: 615px;
   display: flex;
   justify-content: space-between;
 }
 .main-project-balenciaga-item1 {
   width: 775px;
-  height: 615px;
 }
 .main-project-balenciaga-item1-photo {
   width: 735px;
@@ -278,7 +273,6 @@ table {
 }
 .main-project-balenciaga-item2 {
   width: 475px;
-  height: 397px;
   margin-bottom: 80px;
 }
 .main-project-balenciaga-item2-name {
@@ -306,13 +300,12 @@ table {
 }
 .main-project-angel {
   width: 453px;
-  height: 243px;
   background-color: var(--header-text);
   border-radius: 8px;
-  padding: 30px 0px 0px 30px;
+  padding: 30px 0px 30px 30px;
   box-shadow: 51px 49px 89px 0px rgba(196, 196, 196, 0.63);
   position: absolute;
-  top: 2159px;
+  top: 2330px;
   left: 332px;
   right: 704px;
   margin: 0 auto;
@@ -348,14 +341,12 @@ table {
 }
 .main-project-3dmodel {
   width: 1268px;
-  height: 585px;
   display: flex;
   justify-content: space-between;
-  margin: 100px 0px 100px 172px;
+  margin: 100px 0px 130px 172px;
 }
 .main-project-3dmodel-item1 {
   width: 475px;
-  height: 397px;
   margin-bottom: 80px;
 }
 .main-project-3dmodel-item1-name {
@@ -385,7 +376,6 @@ table {
 }
 .main-project-3dmodel-item2 {
   width: 775px;
-  height: 585px;
   display: flex;
   justify-content: end;
 }
@@ -395,13 +385,12 @@ table {
 }
 .main-project-lina {
   width: 453px;
-  height: 243px;
   background-color: var(--header-text);
   border-radius: 8px;
-  padding: 30px 0px 0px 30px;
+  padding: 30px 0px 30px 30px;
   box-shadow: 51px 49px 89px 0px rgba(196, 196, 196, 0.63);
   position: absolute;
-  top: 2844px;
+  top: 2955px;
   left: 705px;
   right: 331px;
   margin: 0 auto;
@@ -437,13 +426,12 @@ table {
 }
 .main-project-booking {
   width: 1305px;
-  height: 590px;
   display: flex;
   justify-content: space-between;
 }
 .main-project-booking-item1 {
   width: 776px;
-  height: 590px;
+  margin-bottom: 37px;
 }
 .main-project-booking-item1-photo {
   width: 735px;
@@ -451,7 +439,6 @@ table {
 }
 .main-project-booking-item2 {
   width: 475px;
-  height: 397px;
   margin-bottom: 80px;
 }
 .main-project-booking-item2-name {
@@ -481,13 +468,12 @@ table {
 }
 .main-project-eunice {
   width: 453px;
-  height: 210px;
   background-color: var(--header-text);
   border-radius: 8px;
-  padding: 30px 0px 0px 30px;
+  padding: 30px 0px 30px 30px;
   box-shadow: 51px 49px 89px 0px rgba(196, 196, 196, 0.63);
   position: absolute;
-  top: 3567px;
+  top: 3675px;
   left: 333px;
   right: 704px;
   margin: 0 auto;
@@ -536,7 +522,6 @@ table {
 }
 .main-deation-list {
   width: 1110px;
-  height: 309px;
   display: flex;
   row-gap: 30px;
   margin-bottom: 322px;
@@ -571,12 +556,13 @@ table {
   text-decoration: underline;
   color: var(--link);
   font-family: "Awesome-Font", Arial;
+  margin-top: 33px;
 }
 .main-deation-box {
   width: 1275px;
   background-color: var(--header-text);
   position: absolute;
-  top: 4718px;
+  top: 4755px;
   right: 244px;
   left: 0px;
   margin: 0 auto;
@@ -807,5 +793,83 @@ table {
   }
   .main-strategy-list-item2-list-item2-text {
     font-size: 13px;
+  }
+  .main-project {
+    width: 425px;
+  }
+  .main-project-box {
+    width: 360px;
+    margin: 175px 0px 110px 35px;
+    display: block;
+  }
+  .main-project-box-name {
+    width: 360px;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 35px;
+  }
+  .main-project-box-text {
+    width: 360px;
+    text-align: center;
+  }
+  .main-project-balenciaga {
+    width: 425px;
+    display: block;
+  }
+  .main-project-balenciaga-item1 {
+    width: 425px;
+  }
+  .main-project-balenciaga-item1-photo {
+    width: 425px;
+    height: 300px;
+  }
+  .main-project-balenciaga-item2 {
+    width: 425px;
+    margin-top: 35px;
+  }
+  .main-project-balenciaga-item2-name {
+    width: 360px;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 32.5px;
+    margin-bottom: 25px;
+  }
+  .main-project-balenciaga-item2-text {
+    width: 380px;
+    margin-bottom: 40px;
+    font-size: 13px;
+    margin-left: 22.5px;
+    text-align: center;
+  }
+  .main-project-balenciaga-item2-link {
+    margin-left: 146.5px;
+  }
+  .main-project-angel {
+    width: 200px;
+    padding: 10px 0px 10px 10px;
+    top: 2136px;
+    left: 215px;
+    right: 1px;
+    border-radius: 10px 0px 0px 0px;
+    background-color: rgba(255, 255, 255, 0.631372549);
+    margin-right: 0px;
+  }
+  .main-project-angel-text {
+    width: 195px;
+    height: 60px;
+    font-size: 12px;
+    overflow: scroll;
+    margin-bottom: 22px;
+  }
+  .main-project-angel-list-item1-photo {
+    width: 35px;
+    height: 35px;
+  }
+  .main-project-angel-list-item2-name {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+  .main-project-angel-list-item2-text {
+    font-size: 12px;
   }
 }
